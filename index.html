@@ -1,0 +1,16 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="favicon.ico"><title>Mascot Network</title><script>// 禁止双指放大
+      document.documentElement.addEventListener('touchstart', function (event) {
+        if (event.touches.length > 1) {
+          event.preventDefault();
+        }
+      }, false);
+
+      // 禁止双击放大
+      var lastTouchEnd = 0;
+      document.documentElement.addEventListener('touchend', function (event) {
+        var now = Date.now();
+        if (now - lastTouchEnd <= 300) {
+          event.preventDefault();
+        }
+        lastTouchEnd = now;
+      }, false);</script><link href="css/chunk-0a552a38.53842954.css" rel="prefetch"><link href="css/chunk-0e1c3d3c.53842954.css" rel="prefetch"><link href="css/chunk-1278f3fa.cab7f174.css" rel="prefetch"><link href="css/chunk-21171bea.787079a8.css" rel="prefetch"><link href="css/chunk-2f18f070.fd130b27.css" rel="prefetch"><link href="css/chunk-319d7d6d.53842954.css" rel="prefetch"><link href="css/chunk-42c421b0.53842954.css" rel="prefetch"><link href="css/chunk-5b18e6cc.53842954.css" rel="prefetch"><link href="css/chunk-665fe470.c68aefa0.css" rel="prefetch"><link href="css/chunk-667ec69e.53842954.css" rel="prefetch"><link href="css/chunk-b226c7c6.57ad6201.css" rel="prefetch"><link href="css/chunk-c9aea7ac.afeb2499.css" rel="prefetch"><link href="css/chunk-df809bce.efd8c406.css" rel="prefetch"><link href="js/chunk-0a552a38.d4389941.js" rel="prefetch"><link href="js/chunk-0e1c3d3c.fb63a9f5.js" rel="prefetch"><link href="js/chunk-1278f3fa.0bfca1e9.js" rel="prefetch"><link href="js/chunk-21171bea.744ae2ca.js" rel="prefetch"><link href="js/chunk-2d0d79cc.a77d59aa.js" rel="prefetch"><link href="js/chunk-2f18f070.ae520317.js" rel="prefetch"><link href="js/chunk-319d7d6d.a9fadb15.js" rel="prefetch"><link href="js/chunk-42c421b0.6a26cfd1.js" rel="prefetch"><link href="js/chunk-5b18e6cc.8132728c.js" rel="prefetch"><link href="js/chunk-665fe470.f315e382.js" rel="prefetch"><link href="js/chunk-667ec69e.b83b4291.js" rel="prefetch"><link href="js/chunk-b226c7c6.af3b445b.js" rel="prefetch"><link href="js/chunk-c9aea7ac.64121d68.js" rel="prefetch"><link href="js/chunk-df809bce.a2b78e0b.js" rel="prefetch"><link href="css/chunk-vendors.ff843ef8.css" rel="stylesheet" integrity="sha384-e8+D5S8nZ8a7OqY98ugLY1twTil9M3emc7tz2/HINYEM6WLC7RSIE3KRyVeWHr8/"><link href="css/app.f56fc9e4.css" rel="stylesheet" integrity="sha384-UNuL5G9l39FuZjVy54fGHK7Ppc6QTKkyH+aWLS370hrThyuNzSwOQJ2v+z5xTN0N"></head><body><noscript><strong>We're sorry but burn token doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="js/chunk-vendors.45a83cc2.js" integrity="sha384-krfyBSdz3b3INYcpERgbdlsNBTcWVk0BcaQNP6ioIUZW5VMw2CvtJ8rSo0Sbkafx"></script><script src="js/app.5351c7e5.js" integrity="sha384-0vSJSML91skyWbYHWLBkQ/X+WGlT3oC7/IpQOC89ycVa34X0AbVRH+xy6T2wajom"></script></body></html>
